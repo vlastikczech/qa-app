@@ -23,7 +23,7 @@ class Questions extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    {this.state.questions === null && <p>Loading questions...</p>}
+                    {this.state.questions === null && <p>Loading questions..</p>}
                     {
                         this.state.questions && this.state.questions.map(question => (
                             <div key={question.id} className="col-sm-12 col-md-4 col-lg-3">
