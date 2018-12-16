@@ -36,7 +36,7 @@ app.get('/:id', (req, res) => {
 })
 
 const checkJwt = jwt({
-    secret: jwksRsa.exppressJwtSecret({
+    secret: jwksRsa.expressJwtSecret({
         cache: true,
         rateLimit: true,
         jwksRequestsPerMinute: 5,
@@ -44,7 +44,7 @@ const checkJwt = jwt({
     }),
 
     audience: 'kTT4B3MdUHqV70hyE0KGoRiWJ7hftwtF',
-    issuer: `https://vlastik.auth0.com/.well-known/jwks.json`,
+    issuer: `https://vlastik.auth0.com/`,
     algorithms: ['RS256']
 })
 
