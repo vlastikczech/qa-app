@@ -41,19 +41,33 @@ class Auth {
                 if (!authResult || !authResult.idToken) {
                     return reject(err);
                 }
-                this.idToken = authResult.idToken;
-                this.profile = authResult.idTokenPayload;
-
-                this.expiresAt = authResult.idTokenPayload.exp *1000;
+                this.setSession(authResult);
                 resolve();
             });
         })
     }
 
+    setSession(authResult) {
+        this.idToken = authResult.idToken;
+        this.profile = authResult.idTokenPayload;
+        this.expiresAt = authResult.idTokenPayload.exp * 1000;
+    }
+
     signOut() {
-        this.idToken = null;
-        this.profile = null;
-        this.expiresAt = null;
+        this.auth0.logout({
+            returnTo: 'http://localhost:3000',
+            clientID: 'kTT4B3MdUHqV70hyE0KGoRiWJ7hftwtF',
+        });
+    }
+
+    silentAuth() {
+        return new Promise((resolve, reject) => {
+            this.auth0.checkSession({}, (err, authResult) => {
+                if (err) return reject(err);
+                this.setSession(authResult);
+                resolve()
+            })
+        })
     }
 }
 

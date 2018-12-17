@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71bd6bc0-55d2-4895-9680-c2e224f62283" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Question/Question.js" afterPath="$PROJECT_DIR$/src/Question/Question.js" />
-      <change beforePath="$PROJECT_DIR$/src/Question/SubmitAnswer.js" afterPath="$PROJECT_DIR$/src/Question/SubmitAnswer.js" />
+      <change beforePath="$PROJECT_DIR$/src/Auth/Auth.js" afterPath="$PROJECT_DIR$/src/Auth/Auth.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Auth.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Auth.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Auth/Auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-426">
-              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="221">
+              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -83,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Question.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Question/Question.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -131,7 +130,6 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/Callback.js" />
-        <option value="$PROJECT_DIR$/src/Auth/Auth.js" />
         <option value="$PROJECT_DIR$/src/NavBar/NavBar.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
@@ -140,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/SecuredRoute/SecuredRoute.js" />
         <option value="$PROJECT_DIR$/src/Question/SubmitAnswer.js" />
         <option value="$PROJECT_DIR$/src/Question/Question.js" />
+        <option value="$PROJECT_DIR$/src/Auth/Auth.js" />
       </list>
     </option>
   </component>
@@ -243,12 +242,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544737429381</updated>
-      <workItem from="1544737430503" duration="33876000" />
+      <workItem from="1544737430503" duration="34848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33876000" />
+    <option name="totallyTimeSpent" value="34848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
@@ -375,14 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Auth/Auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NewQuestion/NewQuestion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -410,6 +401,14 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Auth/Auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
